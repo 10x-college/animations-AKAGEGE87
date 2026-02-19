@@ -423,3 +423,256 @@ header {
     border-left: 1px dashed #333333;
     border-right: 1px dashed #333333;
 }
+
+.questions {
+    border: 1px dashed #333333;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+}
+
+.questions_article {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.question_title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.questions_h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.questions_p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #676665;
+}
+
+.questions_ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+    li {
+
+        a {
+            text-decoration: none;
+            color: #B3B3B2;
+            border: 1px dashed #333333;
+            padding: 18px 24px;
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            color: #B3B3B2;
+            background-color: transparent;
+            border-radius: 12px;
+            letter-spacing: 0;
+            border: 1px dashed #333333;
+        }
+    }
+
+
+}
+
+.questions_text_boxs {
+    display: flex;
+
+}
+
+
+.questions_text_boxs_left,
+.questions_text_boxs_right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.questions_text_box {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 1px dashed #333333;
+    border-left: none;
+    border-right: none;
+}
+
+.questions_text_box_h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+
+}
+
+.questions_text_box_p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #81807E;
+
+
+}
+
+.questions_sun {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 40px;
+    right: -30px;
+}
+
+footer {
+    margin-top: 36px;
+}
+
+.footer_first_line {
+    padding: 100px 162px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px dashed #333333;
+    border-bottom: 1px dashed #333333;
+}
+
+.footer_ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+    li {
+        a {
+
+            border-radius: 12px;
+            width: 66px;
+            height: 66px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #D6CDC2;
+        }
+
+
+    }
+}
+
+.footer_second_line {
+    padding: 80px 162px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+
+
+}
+
+.footer_text_boxs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer_text_box_title {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.footer_text_box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #676665;
+
+    span {
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+}
+
+.footer_text_box_input {
+    padding: 18px 24px;
+    border-radius: 12px;
+    width: 478px;
+    background-color: #676665;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    input {
+
+        background-color: #676665;
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        color: #676665;
+        border: none;
+    }
+
+    img {
+        color: #fff;
+    }
+
+    ;
+}
+
+.footer_dot {
+    width: 6px;
+    height: 6px;
+}
+
+.footer_last_line {
+    padding: 50px 162px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px dashed #333333;
+
+}
+
+.footer_last_line_p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #81807E;
+}
+
+.footer_last_line_text_box {
+    display: flex;
+    gap: 11px;
+
+    p {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 150%;
+        color: #81807E;
+    }
+
+    hr {
+        border: 1px solid #262626;
+    }
+}
