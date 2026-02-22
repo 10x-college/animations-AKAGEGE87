@@ -1,407 +1,546 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="box">
-            <header>
-                <article class="header_article">
-                    <button class="header_home">Home</button>
-                    <button class="header_products">Products</button>
-                </article>
-                <a href="#" class="header_logo"><img src="./svg/Logo.svg" alt="Logo"></a>
-                <article class="header_article">
-                    <a href="#" class="header_cart"><img src="./svg/cart.png" alt="cart"></a>
-                    <button class="header_contact">Contact</button>
-                </article>
-            </header>
-            <section class="hero">
-                <article class="hero_img">
-                    <img src="./img/hero.png" alt="">
-                    <button class="hero_shop">Shop Now <img src="./svg/shop_arrow.svg" alt="shop_arrow"></button>
-                </article>
-                <article class="hero_text">
-                    <article class="left_side">
-                        <nav class="left_side_nav">
-                            <ul class="left_side_ul">
-                                <li>All</li>
-                                <li>Mens</li>
-                                <li>Womens</li>
-                                <li>Kids</li>
-                            </ul>
-                        </nav>
-                        <h3 class="left_side_h3">Elevate Your Style with StyleLoom</h3>
-                        <p class="left_side_p">Explore a world of fashion at StyleLoom, where trends meet affordability.
-                            Immerse yourself in
-                            the latest styles and seize exclusive promotions.</p>
-                    </article>
-                    <article class="right_side">
-                        <div class="right_side_items">
-                            <div class="right_side_item">
-                                <div class="right_side_num">1,500+</div>
-                                <div class="right_side_text">Fashion Products</div>
-                            </div>
-                            <div class="right_side_item">
-                                <div class="right_side_num">50+</div>
-                                <div class="right_side_text">New arrivals every month.</div>
-                            </div>
-                        </div>
-                        <div class="right_side_items">
-                            <div class="right_side_item">
-                                <div class="right_side_num">30%</div>
-                                <div class="right_side_text">OFF on select items.</div>
-                            </div>
-                            <div class="right_side_item">
-                                <div class="right_side_num">95%</div>
-                                <div class="right_side_text">Customer Satisfaction Rate</div>
-                            </div>
-                        </div>
-                    </article>
-                </article>
-            </section>
-            <section class="trends">
-                <article class="trends_article">
-                    <h2 class="trends_h2">Crafting Trends, Inspiring Confidence</h2>
-                    <p class="trends_p">Explore a world of fashion at StyleLoom, where trends meet affordability.</p>
-                </article>
-                <article class="trends_items">
-                    <div class="trends_item">
-                        <img src="./svg/trends_1.svg" alt="trends_1" class="trends_img">
-                        <img src="./svg/trends_1_icon.svg" alt="trends_1_icon" class="trends_icon">
-                        <div class="trends_item_text">
-                            <h3>Passionate Craftsmanship</h3>
-                            <p>Every garment at StyleLoom is crafted with passion, reflecting our commitment to quality
-                                and innovation.</p>
-                        </div>
-                    </div>
-                    <div class="trends_item">
-                        <img src="./svg/trends_2.svg" alt="trends_2" class="trends_img">
-                        <img src="./svg/trends_2_icon.svg" alt="trends_2_icon" class="trends_icon">
-                        <div class="trends_item_text">
-                            <h3>Fashion Forward</h3>
-                            <p>We're more than a brand; we're trendsetters, curating styles that empower and inspire
-                                confidence.</p>
-                        </div>
-                    </div>
-                    <div class="trends_item">
-                        <img src="./svg/trends_3.svg" alt="trends_3" class="trends_img">
-                        <img src="./svg/trends_3_icon.svg" alt="trends_3_icon" class="trends_icon">
-                        <div class="trends_item_text">
-                            <h3>Customer-Centric Approach</h3>
-                            <p>At StyleLoom, our customers are at the heart of everything we do. Your satisfaction is
-                                our measure of success.</p>
-                        </div>
-                    </div>
-                    <div class="trends_item">
-                        <img src="./svg/trends_4.svg" alt="trends_4" class="trends_img">
-                        <img src="./svg/trends_4_icon.svg" alt="trends_4_icon" class="trends_icon">
-                        <div class="trends_item_text">
-                            <h3>Global Inspiration</h3>
-                            <p>Influenced by global trends, we bring you a diverse and dynamic collection, embodying the
-                                spirit of fashion from around the world.</p>
-                        </div>
-                    </div>
-                    <div class="trends_item">
-                        <img src="./svg/trends_5.svg" alt="trends_5" class="trends_img">
-                        <img src="./svg/trends_5_icon.svg" alt="trends_5_icon" class="trends_icon">
-                        <div class="trends_item_text">
-                            <h3>Empowering Your Style</h3>
-                            <p>Beyond clothing, StyleLoom is a lifestyle. Join us on a journey of self-expression and
-                                empowerment through fashion.</p>
-                        </div>
-                    </div>
-                    <div class="trends_item">
-                        <img src="./svg/trends_6.svg" alt="trends_6" class="trends_img">
-                        <img src="./svg/trends_6_icon.svg" alt="trends_6_icon" class="trends_icon">
-                        <div class="trends_item_text">
-                            <h3>Sustainable Practices</h3>
-                            <p>StyleLoom is committed to sustainability, integrating eco-friendly practices into our
-                                production process.</p>
-                        </div>
-                    </div>
-                </article>
-            </section>
-            <section class="latest_collection">
-                <article class="latest_collection_article">
-                    <div class="latest_collection_title">
-                        <h2 class="latest_collection_h2">Elevate Your Style with Our Latest Collection</h2>
-                        <p class="latest_collection_p">Each piece is crafted to enhance your fashion statement.</p>
-
-                    </div>
-                    <nav class="latest_collection_nav">
-                        <ul class="latest_collection_ul">
-                            <li>All</li>
-                            <li>Mens</li>
-                            <li>Womens</li>
-                            <li>Kids</li>
-                        </ul>
-                    </nav>
-                    <img src="./svg/abstract.svg" alt="abstract" class="abstract">
-                </article>
-            </section>
-            <section class="image_cards">
-                <article class="image_cards_article">
-                    <img src="./img/1.png" alt="1" class="image_cards_img">
-                    <div class="image_cards_text">
-                        <div class="image_cards_buttons">
-                            <button class="image_cards_category_button1">Womenswear</button>
-                            <button class="image_cards_shop_button">Shop Now <img src="./svg/shop_arrow.svg"
-                                    alt="shop_arrow"></button>
-                        </div>
-                        <h4 class="image_cards_h4">Timeless A-line Evening Dress</h4>
-                        <div class="image_cards_info">
-                            <p class="image_cards_info_p"><span>Fit</span><img src="./svg/Shape.svg" alt="Shape"
-                                    class="shape">Ankle-length</p>
-                            <p class="image_cards_info_p"><span>Price:</span><img src="./svg/Shape.svg" alt="Shape"
-                                    class="shape">$129.99</p>
-                        </div>
-                    </div>
-
-                </article>
-                <article class="image_cards_article image_cards_article5">
-                    <img src="./img/2.png" alt="2" class="image_cards_img">
-                    <div class="image_cards_text">
-                        <div class="image_cards_buttons">
-                            <button class="image_cards_category_button1">Womenswear</button>
-                            <button class="image_cards_shop_button">Shop Now <img src="./svg/shop_arrow.svg"
-                                    alt="shop_arrow"></button>
-                        </div>
-                        <h4 class="image_cards_h4">Floral Bloom Maxi Dress</h4>
-                        <div class="image_cards_info">
-                            <p class="image_cards_info_p"><span>Fit</span><img src="./svg/Shape.svg" alt="Shape"
-                                    class="shape">Slim Fit</p>
-                            <p class="image_cards_info_p"><span>Price:</span><img src="./svg/Shape.svg" alt="Shape"
-                                    class="shape">$54.99</p>
-                        </div>
-                    </div>
-
-                </article>
-                <article class="image_cards_article">
-                    <img src="./img/3.png" alt="3" class="image_cards_img">
-                    <div class="image_cards_text">
-                        <div class="image_cards_buttons">
-                            <button class="image_cards_category_button1">Womenswear</button>
-                            <button class="image_cards_shop_button">Shop Now <img src="./svg/shop_arrow.svg"
-                                    alt="shop_arrow"></button>
-                        </div>
-                        <h4 class="image_cards_h4">Elegant Evening Gown</h4>
-                        <div class="image_cards_info">
-                            <p class="image_cards_info_p"><span>Fit</span><img src="./svg/Shape.svg" alt="Shape"
-                                    class="shape">Flowing skirt</p>
-                            <p class="image_cards_info_p"><span>Price:</span><img src="./svg/Shape.svg" alt="Shape"
-                                    class="shape">$89.99</p>
-                        </div>
-                    </div>
-
-                </article>
-                <article class="image_cards_article">
-                    <img src="./img/4.png" alt="4" class="image_cards_img">
-                    <div class="image_cards_text">
-                        <div class="image_cards_buttons">
-                            <button class="image_cards_category_button1">Womenswear</button>
-                            <button class="image_cards_shop_button">Shop Now <img src="./svg/shop_arrow.svg"
-                                    alt="shop_arrow"></button>
-                        </div>
-                        <h4 class="image_cards_h4">Urban Chic Handbag</h4>
-                        <div class="image_cards_info">
-                            <p class="image_cards_info_p"><span>Fit</span><img src="./svg/Shape.svg" alt="Shape"
-                                    class="shape">Spacious</p>
-                            <p class="image_cards_info_p"><span>Price:</span><img src="./svg/Shape.svg" alt="Shape"
-                                    class="shape">$49.99</p>
-                        </div>
-                    </div>
-
-                </article>
-                <article class="image_cards_article image_cards_article5">
-                    <img src="./img/5.png" alt="5" class="image_cards_img">
-                    <div class="image_cards_text">
-                        <div class="image_cards_buttons">
-                            <button class="image_cards_category_button1">Womenswear</button>
-                            <button class="image_cards_shop_button">Shop Now <img src="./svg/shop_arrow.svg"
-                                    alt="shop_arrow"></button>
-                        </div>
-                        <h4 class="image_cards_h4">Sophisticate Sun Hat</h4>
-                        <div class="image_cards_info">
-                            <p class="image_cards_info_p"><span>Fit</span><img src="./svg/Shape.svg" alt="Shape"
-                                    class="shape">One size fits all</p>
-                            <p class="image_cards_info_p"><span>Price:</span><img src="./svg/Shape.svg" alt="Shape"
-                                    class="shape">$24.99</p>
-                        </div>
-                    </div>
-
-                </article>
-                <article class="image_cards_article">
-                    <img src="./img/6.png" alt="6" class="image_cards_img">
-                    <div class="image_cards_text">
-                        <div class="image_cards_buttons">
-                            <button class="image_cards_category_button1">Womenswear</button>
-                            <button class="image_cards_shop_button">Shop Now <img src="./svg/shop_arrow.svg"
-                                    alt="shop_arrow"></button>
-                        </div>
-                        <h4 class="image_cards_h4">Boho Chic Printed Scarf</h4>
-                        <div class="image_cards_info">
-                            <p class="image_cards_info_p"><span>Fit</span><img src="./svg/Shape.svg" alt="Shape"
-                                    class="shape">Lightweight</p>
-                            <p class="image_cards_info_p"><span>Price:</span><img src="./svg/Shape.svg" alt="Shape"
-                                    class="shape">$19.99</p>
-                        </div>
-                    </div>
-
-                </article>
-            </section>
-            <section class="questions">
-                <article class="questions_article">
-                    <div class="question_title">
-                        <h2 class="questions_h2">Have Questions? We Have Answers.</h2>
-                        <p class="questions_p">Ease into the world of StyleLoom with clarity. Our FAQs cover a spectrum
-                            of topics.</p>
-
-                    </div>
-                    <nav class="questions_nav">
-                        <ul class="questions_ul">
-                            <li>
-                                <a href="#">All</a>
-                            </li>
-                            <li>
-                                <a href="#">Ordering</a>
-                            </li>
-                            <li>
-                                <a href="#">Shipping</a>
-                            </li>
-                            <li>
-                                <a href="#">Returns</a>
-                            </li>
-                            <li>
-                                <a href="#">Support</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </article>
-                <article class="questions_text_boxs">
-                    <div class="questions_text_boxs_left">
-                        <div class="questions_text_box">
-                            <h2 class="questions_text_box_h2">How can I place an order on StyleLoom?</h2>
-                            <p class="questions_text_box_p">Ordering is easy! Simply browse our website, add items to
-                                your cart, and proceed to checkout. Follow the prompts to enter your details and
-                                complete your purchase.</p>
-                        </div>
-                        <div class="questions_text_box">
-                            <h2 class="questions_text_box_h2">What payment methods do you accept?</h2>
-                            <p class="questions_text_box_p">We accept a variety of payment methods, including
-                                credit/debit cards, net banking, and select digital wallets. Choose the option that
-                                suits you best during checkout.</p>
-                        </div>
-                        <div class="questions_text_box">
-                            <h2 class="questions_text_box_h2">How can I track my order?</h2>
-                            <p class="questions_text_box_p">Once your order is dispatched, you'll receive a tracking
-                                number via email. Use this number to track your package in real-time on our website.</p>
-                        </div>
-                    </div>
-                    <div class="questions_text_boxs_right">
-                        <div class="questions_text_box">
-                            <h2 class="questions_text_box_h2">Can I modify or cancel my order after placing it?</h2>
-                            <p class="questions_text_box_p">Unfortunately, once an order is confirmed, modifications or
-                                cancellations may not be possible. Please review your order carefully before completing
-                                the purchase.</p>
-                        </div>
-                        <div class="questions_text_box">
-                            <h2 class="questions_text_box_h2">How do I initiate a return?</h2>
-                            <p class="questions_text_box_p">Visit our Returns page and follow the provided instructions.
-                                Ensure your item meets our return criteria, and our team will guide you through the
-                                process.</p>
-                        </div>
-                        <div class="questions_text_box">
-                            <h2 class="questions_text_box_h2">Do you offer exchanges for products?</h2>
-                            <p class="questions_text_box_p">At this time, we don't offer direct product exchanges. If
-                                you'd like a different item, please initiate a return and place a new order.</p>
-                        </div>
-                    </div>
-                </article>
-                <img src="./svg/questions_sun.svg" alt="questions_sun" class="questions_sun">
-            </section>
-        </div>
-        <footer>
-            <article class="footer_first_line">
-                <img src="./svg/footer_logo.svg" alt="footer_logo" class="footer_logo">
-                <nav class="footer_nav">
-                    <ul class="footer_ul">
-                        <li class="footer_li">
-                            <a href="https://instagram.com" target="_blank"><img src="./svg/inst.svg" alt=""></a>
-                        </li>
-                        <li>
-                            <a href="https://instagram.com" target="_blank"><img src="./svg/int.svg" alt=""></a>
-                        </li>
-                        <li>
-                            <a href="https://x.com" target="_blank"><img src="./svg/twit.svg" alt=""></a>
-                        </li>
-                        <li>
-                            <a href="https://be.com" target="_blank"><img src="./svg/be.svg" alt=""></a>
-                        </li>
-
-                    </ul>
-                </nav>
+      <div class="box">
+        <header>
+          <article class="header_article">
+            <button class="header_home header_btn">Home</button>
+            <button class="header_products header_btn">Products</button>
+          </article>
+          <a href="#" class="header_logo"
+            ><img src="./svg/Logo.svg" alt="Logo"
+          /></a>
+          <article class="header_article">
+            <a href="#" class="header_cart"
+              ><img src="./svg/cart.png" alt="cart"
+            /></a>
+            <button class="header_contact header_btn">Contact</button>
+          </article>
+        </header>
+        <section class="hero">
+          <article class="hero_img">
+            <img src="./img/hero.png" alt="" />
+            <div class="hero_shop_box">
+              <button class="hero_shop" id="hero_shop">
+                Shop Now <img src="./svg/shop_arrow.svg" alt="shop_arrow" />
+              </button>
+            </div>
+          </article>
+          <article class="hero_text">
+            <article class="left_side">
+              <nav class="left_side_nav">
+                <ul class="left_side_ul">
+                  <li>All</li>
+                  <li>Mens</li>
+                  <li>Womens</li>
+                  <li>Kids</li>
+                </ul>
+              </nav>
+              <h3 class="left_side_h3">Elevate Your Style with StyleLoom</h3>
+              <p class="left_side_p">
+                Explore a world of fashion at StyleLoom, where trends meet
+                affordability. Immerse yourself in the latest styles and seize
+                exclusive promotions.
+              </p>
             </article>
-            <article class="footer_second_line">
-                <div class="footer_text_boxs">
-                    <h3 class="footer_text_box_title">
-                        Home
-                    </h3>
-                    <div class="footer_text_box"><span>Why Us</span> <img src="./svg/dot.svg" alt="dot"
-                            class="footer_dot"> <span>About
-                            Us</span> <img src="./svg/dot.svg" alt="dot" class="footer_dot">
-                        <span>Testimonials</span><img src="./svg/dot.svg" alt="dot" class="footer_dot">
-                        <span>FAQ’s</span>
-                    </div>
+            <article class="right_side">
+              <div class="right_side_items">
+                <div class="right_side_item">
+                  <div class="right_side_num">1,500+</div>
+                  <div class="right_side_text">Fashion Products</div>
                 </div>
-                <div class="footer_text_boxs">
-                    <h3 class="footer_text_box_title">
-                        Products
-                    </h3>
-                    <div class="footer_text_box"><span>Menswear</span> <img src="./svg/dot.svg" alt="dot"
-                            class="footer_dot"> <span>Womenswear</span> <img src="./svg/dot.svg" alt="dot"
-                            class="footer_dot">
-                        <span>Kidswear</span>
-                    </div>
+                <div class="right_side_item">
+                  <div class="right_side_num">50+</div>
+                  <div class="right_side_text">New arrivals every month.</div>
                 </div>
-                <div class="footer_text_boxs">
-                    <h3 class="footer_text_box_title">
-                        Subscribe to Newsletter
-                    </h3>
-                    <div class="footer_text_box footer_text_box_input">
-                        <input type="text" placeholder="Your email">
-                        <img src="./svg/arrow.svg" alt="arrow">
-                    </div>
+              </div>
+              <div class="right_side_items">
+                <div class="right_side_item">
+                  <div class="right_side_num">30%</div>
+                  <div class="right_side_text">OFF on select items.</div>
                 </div>
+                <div class="right_side_item">
+                  <div class="right_side_num">95%</div>
+                  <div class="right_side_text">Customer Satisfaction Rate</div>
+                </div>
+              </div>
             </article>
-            <article class="footer_last_line">
-                <p class="footer_last_line_p">© 2024 StyleLoom. All rights reserved.</p>
-                <div class="footer_last_line_text_box">
-                    <p>
-                        Terms & Conditions
-                    </p>
-                    <hr>
-                    <p>Privacy Policy</p>
-                </div>
-            </article>
-        </footer>
+          </article>
+        </section>
+        <section class="trends">
+          <article class="trends_article">
+            <h2 class="trends_h2">Crafting Trends, Inspiring Confidence</h2>
+            <p class="trends_p">
+              Explore a world of fashion at StyleLoom, where trends meet
+              affordability.
+            </p>
+          </article>
+          <article class="trends_items">
+            <div class="trends_item">
+              <img src="./svg/trends_1.svg" alt="trends_1" class="trends_img" />
+              <img
+                src="./svg/trends_1_icon.svg"
+                alt="trends_1_icon"
+                class="trends_icon"
+              />
+              <div class="trends_item_text">
+                <h3>Passionate Craftsmanship</h3>
+                <p>
+                  Every garment at StyleLoom is crafted with passion, reflecting
+                  our commitment to quality and innovation.
+                </p>
+              </div>
+            </div>
+            <div class="trends_item">
+              <img src="./svg/trends_2.svg" alt="trends_2" class="trends_img" />
+              <img
+                src="./svg/trends_2_icon.svg"
+                alt="trends_2_icon"
+                class="trends_icon"
+              />
+              <div class="trends_item_text">
+                <h3>Fashion Forward</h3>
+                <p>
+                  We're more than a brand; we're trendsetters, curating styles
+                  that empower and inspire confidence.
+                </p>
+              </div>
+            </div>
+            <div class="trends_item">
+              <img src="./svg/trends_3.svg" alt="trends_3" class="trends_img" />
+              <img
+                src="./svg/trends_3_icon.svg"
+                alt="trends_3_icon"
+                class="trends_icon"
+              />
+              <div class="trends_item_text">
+                <h3>Customer-Centric Approach</h3>
+                <p>
+                  At StyleLoom, our customers are at the heart of everything we
+                  do. Your satisfaction is our measure of success.
+                </p>
+              </div>
+            </div>
+            <div class="trends_item">
+              <img src="./svg/trends_4.svg" alt="trends_4" class="trends_img" />
+              <img
+                src="./svg/trends_4_icon.svg"
+                alt="trends_4_icon"
+                class="trends_icon"
+              />
+              <div class="trends_item_text">
+                <h3>Global Inspiration</h3>
+                <p>
+                  Influenced by global trends, we bring you a diverse and
+                  dynamic collection, embodying the spirit of fashion from
+                  around the world.
+                </p>
+              </div>
+            </div>
+            <div class="trends_item">
+              <img src="./svg/trends_5.svg" alt="trends_5" class="trends_img" />
+              <img
+                src="./svg/trends_5_icon.svg"
+                alt="trends_5_icon"
+                class="trends_icon"
+              />
+              <div class="trends_item_text">
+                <h3>Empowering Your Style</h3>
+                <p>
+                  Beyond clothing, StyleLoom is a lifestyle. Join us on a
+                  journey of self-expression and empowerment through fashion.
+                </p>
+              </div>
+            </div>
+            <div class="trends_item">
+              <img src="./svg/trends_6.svg" alt="trends_6" class="trends_img" />
+              <img
+                src="./svg/trends_6_icon.svg"
+                alt="trends_6_icon"
+                class="trends_icon"
+              />
+              <div class="trends_item_text">
+                <h3>Sustainable Practices</h3>
+                <p>
+                  StyleLoom is committed to sustainability, integrating
+                  eco-friendly practices into our production process.
+                </p>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="latest_collection">
+          <article class="latest_collection_article">
+            <div class="latest_collection_title">
+              <h2 class="latest_collection_h2">
+                Elevate Your Style with Our Latest Collection
+              </h2>
+              <p class="latest_collection_p">
+                Each piece is crafted to enhance your fashion statement.
+              </p>
+            </div>
+            <nav class="latest_collection_nav">
+              <ul class="latest_collection_ul">
+                <li>All</li>
+                <li>Mens</li>
+                <li>Womens</li>
+                <li>Kids</li>
+              </ul>
+            </nav>
+            <img src="./svg/abstract.svg" alt="abstract" class="abstract" />
+          </article>
+        </section>
+        <section class="image_cards">
+          <article class="image_cards_article">
+            <img src="./img/1.png" alt="1" class="image_cards_img" />
+            <div class="image_cards_text">
+              <div class="image_cards_buttons">
+                <button class="image_cards_category_button1">Womenswear</button>
+                <button class="image_cards_shop_button">
+                  Shop Now <img src="./svg/shop_arrow.svg" alt="shop_arrow" />
+                </button>
+              </div>
+              <h4 class="image_cards_h4">Timeless A-line Evening Dress</h4>
+              <div class="image_cards_info">
+                <p class="image_cards_info_p">
+                  <span>Fit</span
+                  ><img
+                    src="./svg/Shape.svg"
+                    alt="Shape"
+                    class="shape"
+                  />Ankle-length
+                </p>
+                <p class="image_cards_info_p">
+                  <span>Price:</span
+                  ><img
+                    src="./svg/Shape.svg"
+                    alt="Shape"
+                    class="shape"
+                  />$129.99
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="image_cards_article image_cards_article5">
+            <img src="./img/2.png" alt="2" class="image_cards_img" />
+            <div class="image_cards_text">
+              <div class="image_cards_buttons">
+                <button class="image_cards_category_button1">Womenswear</button>
+                <button class="image_cards_shop_button">
+                  Shop Now <img src="./svg/shop_arrow.svg" alt="shop_arrow" />
+                </button>
+              </div>
+              <h4 class="image_cards_h4">Floral Bloom Maxi Dress</h4>
+              <div class="image_cards_info">
+                <p class="image_cards_info_p">
+                  <span>Fit</span
+                  ><img src="./svg/Shape.svg" alt="Shape" class="shape" />Slim
+                  Fit
+                </p>
+                <p class="image_cards_info_p">
+                  <span>Price:</span
+                  ><img src="./svg/Shape.svg" alt="Shape" class="shape" />$54.99
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="image_cards_article">
+            <img src="./img/3.png" alt="3" class="image_cards_img" />
+            <div class="image_cards_text">
+              <div class="image_cards_buttons">
+                <button class="image_cards_category_button1">Womenswear</button>
+                <button class="image_cards_shop_button">
+                  Shop Now <img src="./svg/shop_arrow.svg" alt="shop_arrow" />
+                </button>
+              </div>
+              <h4 class="image_cards_h4">Elegant Evening Gown</h4>
+              <div class="image_cards_info">
+                <p class="image_cards_info_p">
+                  <span>Fit</span
+                  ><img
+                    src="./svg/Shape.svg"
+                    alt="Shape"
+                    class="shape"
+                  />Flowing skirt
+                </p>
+                <p class="image_cards_info_p">
+                  <span>Price:</span
+                  ><img src="./svg/Shape.svg" alt="Shape" class="shape" />$89.99
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="image_cards_article">
+            <img src="./img/4.png" alt="4" class="image_cards_img" />
+            <div class="image_cards_text">
+              <div class="image_cards_buttons">
+                <button class="image_cards_category_button1">Womenswear</button>
+                <button class="image_cards_shop_button">
+                  Shop Now <img src="./svg/shop_arrow.svg" alt="shop_arrow" />
+                </button>
+              </div>
+              <h4 class="image_cards_h4">Urban Chic Handbag</h4>
+              <div class="image_cards_info">
+                <p class="image_cards_info_p">
+                  <span>Fit</span
+                  ><img
+                    src="./svg/Shape.svg"
+                    alt="Shape"
+                    class="shape"
+                  />Spacious
+                </p>
+                <p class="image_cards_info_p">
+                  <span>Price:</span
+                  ><img src="./svg/Shape.svg" alt="Shape" class="shape" />$49.99
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="image_cards_article image_cards_article5">
+            <img src="./img/5.png" alt="5" class="image_cards_img" />
+            <div class="image_cards_text">
+              <div class="image_cards_buttons">
+                <button class="image_cards_category_button1">Womenswear</button>
+                <button class="image_cards_shop_button">
+                  Shop Now <img src="./svg/shop_arrow.svg" alt="shop_arrow" />
+                </button>
+              </div>
+              <h4 class="image_cards_h4">Sophisticate Sun Hat</h4>
+              <div class="image_cards_info">
+                <p class="image_cards_info_p">
+                  <span>Fit</span
+                  ><img src="./svg/Shape.svg" alt="Shape" class="shape" />One
+                  size fits all
+                </p>
+                <p class="image_cards_info_p">
+                  <span>Price:</span
+                  ><img src="./svg/Shape.svg" alt="Shape" class="shape" />$24.99
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="image_cards_article">
+            <img src="./img/6.png" alt="6" class="image_cards_img" />
+            <div class="image_cards_text">
+              <div class="image_cards_buttons">
+                <button class="image_cards_category_button1">Womenswear</button>
+                <button class="image_cards_shop_button">
+                  Shop Now <img src="./svg/shop_arrow.svg" alt="shop_arrow" />
+                </button>
+              </div>
+              <h4 class="image_cards_h4">Boho Chic Printed Scarf</h4>
+              <div class="image_cards_info">
+                <p class="image_cards_info_p">
+                  <span>Fit</span
+                  ><img
+                    src="./svg/Shape.svg"
+                    alt="Shape"
+                    class="shape"
+                  />Lightweight
+                </p>
+                <p class="image_cards_info_p">
+                  <span>Price:</span
+                  ><img src="./svg/Shape.svg" alt="Shape" class="shape" />$19.99
+                </p>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="questions">
+          <article class="questions_article">
+            <div class="question_title">
+              <h2 class="questions_h2">Have Questions? We Have Answers.</h2>
+              <p class="questions_p">
+                Ease into the world of StyleLoom with clarity. Our FAQs cover a
+                spectrum of topics.
+              </p>
+            </div>
+            <nav class="questions_nav">
+              <ul class="questions_ul">
+                <li>
+                  <a href="#">All</a>
+                </li>
+                <li>
+                  <a href="#">Ordering</a>
+                </li>
+                <li>
+                  <a href="#">Shipping</a>
+                </li>
+                <li>
+                  <a href="#">Returns</a>
+                </li>
+                <li>
+                  <a href="#">Support</a>
+                </li>
+              </ul>
+            </nav>
+          </article>
+          <article class="questions_text_boxs">
+            <div class="questions_text_boxs_left">
+              <div class="questions_text_box">
+                <h2 class="questions_text_box_h2">
+                  How can I place an order on StyleLoom?
+                </h2>
+                <p class="questions_text_box_p">
+                  Ordering is easy! Simply browse our website, add items to your
+                  cart, and proceed to checkout. Follow the prompts to enter
+                  your details and complete your purchase.
+                </p>
+              </div>
+              <div class="questions_text_box">
+                <h2 class="questions_text_box_h2">
+                  What payment methods do you accept?
+                </h2>
+                <p class="questions_text_box_p">
+                  We accept a variety of payment methods, including credit/debit
+                  cards, net banking, and select digital wallets. Choose the
+                  option that suits you best during checkout.
+                </p>
+              </div>
+              <div class="questions_text_box">
+                <h2 class="questions_text_box_h2">How can I track my order?</h2>
+                <p class="questions_text_box_p">
+                  Once your order is dispatched, you'll receive a tracking
+                  number via email. Use this number to track your package in
+                  real-time on our website.
+                </p>
+              </div>
+            </div>
+            <div class="questions_text_boxs_right">
+              <div class="questions_text_box">
+                <h2 class="questions_text_box_h2">
+                  Can I modify or cancel my order after placing it?
+                </h2>
+                <p class="questions_text_box_p">
+                  Unfortunately, once an order is confirmed, modifications or
+                  cancellations may not be possible. Please review your order
+                  carefully before completing the purchase.
+                </p>
+              </div>
+              <div class="questions_text_box">
+                <h2 class="questions_text_box_h2">
+                  How do I initiate a return?
+                </h2>
+                <p class="questions_text_box_p">
+                  Visit our Returns page and follow the provided instructions.
+                  Ensure your item meets our return criteria, and our team will
+                  guide you through the process.
+                </p>
+              </div>
+              <div class="questions_text_box">
+                <h2 class="questions_text_box_h2">
+                  Do you offer exchanges for products?
+                </h2>
+                <p class="questions_text_box_p">
+                  At this time, we don't offer direct product exchanges. If
+                  you'd like a different item, please initiate a return and
+                  place a new order.
+                </p>
+              </div>
+            </div>
+          </article>
+          <img
+            src="./svg/questions_sun.svg"
+            alt="questions_sun"
+            class="questions_sun"
+          />
+        </section>
+      </div>
+      <footer>
+        <article class="footer_first_line">
+          <img
+            src="./svg/footer_logo.svg"
+            alt="footer_logo"
+            class="footer_logo"
+          />
+          <nav class="footer_nav">
+            <ul class="footer_ul">
+              <li class="footer_li">
+                <a href="https://instagram.com" target="_blank"
+                  ><img src="./svg/inst.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="https://instagram.com" target="_blank"
+                  ><img src="./svg/int.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="https://x.com" target="_blank"
+                  ><img src="./svg/twit.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="https://be.com" target="_blank"
+                  ><img src="./svg/be.svg" alt=""
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </article>
+        <article class="footer_second_line">
+          <div class="footer_text_boxs">
+            <h3 class="footer_text_box_title">Home</h3>
+            <div class="footer_text_box footer_text_box_hover">
+              <span>Why Us</span>
+              <img src="./svg/dot.svg" alt="dot" class="footer_dot" />
+              <span>About Us</span>
+              <img src="./svg/dot.svg" alt="dot" class="footer_dot" />
+              <span>Testimonials</span
+              ><img src="./svg/dot.svg" alt="dot" class="footer_dot" />
+              <span>FAQ’s</span>
+            </div>
+          </div>
+          <div class="footer_text_boxs">
+            <h3 class="footer_text_box_title">Products</h3>
+            <div class="footer_text_box footer_text_box_hover">
+              <span>Menswear</span>
+              <img src="./svg/dot.svg" alt="dot" class="footer_dot" />
+              <span>Womenswear</span>
+              <img src="./svg/dot.svg" alt="dot" class="footer_dot" />
+              <span>Kidswear</span>
+            </div>
+          </div>
+          <div class="footer_text_boxs">
+            <h3 class="footer_text_box_title">Subscribe to Newsletter</h3>
+            <div class="footer_text_box footer_text_box_input">
+              <input type="text" placeholder="Your email" />
+              <img src="./svg/arrow.svg" alt="arrow" />
+            </div>
+          </div>
+        </article>
+        <article class="footer_last_line">
+          <p class="footer_last_line_p">
+            © 2024 StyleLoom. All rights reserved.
+          </p>
+          <div class="footer_last_line_text_box">
+            <p>Terms & Conditions</p>
+            <hr />
+            <p>Privacy Policy</p>
+          </div>
+        </article>
+      </footer>
     </div>
-
-</body>
-
+  </body>
 </html>
